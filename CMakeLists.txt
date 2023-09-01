@@ -14,7 +14,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(qt5 main.cpp)
+add_executable(qt5 main.cpp mainwindow.cpp)
 target_link_libraries(qt5
         Qt5::Core
         Qt5::Gui
